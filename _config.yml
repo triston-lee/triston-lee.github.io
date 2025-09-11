@@ -1,7 +1,7 @@
 title: Triston Lee
 description: 无论如何，明天又是新的一天
 url: "https://triston-lee.github.io"   # 发布后改成你的实际地址
-theme: minima
+theme: poole
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
