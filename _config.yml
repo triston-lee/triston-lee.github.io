@@ -1,5 +1,5 @@
 title: Triston Lee
-description: Personal notes on AI systems, software experiments, and work in progress.
+description: Triston Lee's homepage on AI systems, software experiments, and public notes.
 url: "https://triston-lee.github.io"
 lang: zh-CN
 timezone: Asia/Shanghai
@@ -17,6 +17,7 @@ plugins:
 
 header_pages:
   - about.md
+  - projects.md
   - writing.md
 
 minima:
