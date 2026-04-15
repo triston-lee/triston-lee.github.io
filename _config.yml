@@ -1,22 +1,32 @@
 title: Triston Lee
-description: 无论如何，明天又是新的一天
-url: "https://triston-lee.github.io"   # 发布后改成你的实际地址
+description: Personal notes on AI systems, software experiments, and work in progress.
+url: "https://triston-lee.github.io"
+lang: zh-CN
+timezone: Asia/Shanghai
 theme: minima
+permalink: pretty
+
+author:
+  name: Triston Lee
+  location: Hangzhou, China
+  bio: "Es gibt keine Tatsachen, nur Interpretationen."
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# 顶部导航的页面
 header_pages:
   - about.md
+  - writing.md
 
-# author:
-#   name: tristonlee
-#   email: li943838648@qq.com
-
-# 社交链接（可删可改）
 minima:
   social_links:
-    - { platform: github,  user_url: "https://github.com/你的用户名" }
-    - { platform: x,       user_url: "https://x.com/你的用户名" }
-    - { platform: linkedin,user_url: "https://www.linkedin.com/in/你的用户名/" }
+    - { platform: github, user_url: "https://github.com/triston-lee" }
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: Triston Lee

@@ -1,11 +1,25 @@
-# 个人主页（Jekyll + GitHub Pages）
+# Triston Lee
 
-快速开始：
-1. 新建公共仓库：`你的用户名.github.io`
-2. 把这些文件上传到仓库根目录
-3. Settings → Pages → 选择 `Deploy from a branch`，分支 `main`，目录 `/ (root)`
-4. 访问 `https://你的用户名.github.io`
+一个基于 `Jekyll + GitHub Pages` 的个人主页仓库，包含首页、关于页、文章列表页和基础博客能力。
 
-自定义：
-- 修改 `_config.yml` 的 `title`、`description`、`url`、`author`、社交链接等。
-- 写文章：在 `_posts/` 里新增 `YYYY-MM-DD-标题.md`。
+## 本地预览
+
+1. 安装 Ruby 和 Bundler
+2. 执行 `bundle install --path vendor/bundle`
+3. 执行 `bundle exec jekyll serve`
+4. 打开 `http://127.0.0.1:4000`
+
+## 发布方式
+
+1. 推送到 `main`
+2. 在 GitHub 仓库 `Settings -> Pages` 中选择 `Deploy from a branch`
+3. 分支选择 `main`，目录选择 `/ (root)`
+4. 访问 `https://triston-lee.github.io`
+
+## 内容维护
+
+- 站点配置在 `_config.yml`
+- 首页在 `index.md`
+- 关于页在 `about.md`
+- 文章列表页在 `writing.md`
+- 新文章放在 `_posts/`，文件名格式为 `YYYY-MM-DD-title.md`
